@@ -4,7 +4,7 @@ from PIL import Image
 
 
 def convert():
-    img = Image.open("descarga.png")
+    img = Image.open("ocr-img-example.jpg")
     text = pytesseract.image_to_string(img)
     print(text)
 
